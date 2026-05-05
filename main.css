@@ -15,15 +15,16 @@
     padding:30px;
     color:rgb(3, 3, 96);
     font-family: Times New Roman, serif;
-    margin-left:90px;
+    margin-left:20px;
+    font-size:30px;
     
 }
 #btn1{
     height:40px;
     width:80px;
     position:absolute;
-    left:960px;
-    top:26px;
+    left:1390px;
+    top:28px;
     background-color:rgb(238, 238, 238);
     color:rgb(0, 0, 0);
     text-decoration:none;
@@ -37,9 +38,9 @@
 }
 #btn2{
     height:40px;
-    width:80px;
+    width:99px;
     position:absolute;
-    left:1200px;
+    left:1500px;
     top:26px;
     background-color:rgb(39, 49, 109);
     color:rgb(255, 255, 255);
