@@ -15,20 +15,39 @@
     padding:30px;
     color:rgb(3, 3, 96);
     font-family: Times New Roman, serif;
-
+    margin-left:90px;
     
 }
 #btn1{
     height:40px;
     width:80px;
     position:absolute;
-    left:500px;
-    top:30px;
+    left:960px;
+    top:26px;
+    background-color:rgb(238, 238, 238);
+    color:rgb(0, 0, 0);
     text-decoration:none;
-    border:1px solid black;
+    border:1px solid rgb(208, 195, 195);
     border-radius:7px;
     font-size:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     
-    
-    
+}
+#btn2{
+    height:40px;
+    width:80px;
+    position:absolute;
+    left:1200px;
+    top:26px;
+    background-color:rgb(39, 49, 109);
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    border:1px solid rgb(208, 195, 195);
+    border-radius:7px;
+    font-size:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
