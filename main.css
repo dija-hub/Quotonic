@@ -1,0 +1,16 @@
+* {
+      margin:0;
+    padding:0;
+}
+
+#nav-bar{
+    background-color:#e9e9db;
+    height:90px;
+    width:100%;
+    display:flex;
+ 
+}
+#logo{
+    padding:30px;
+    
+}
