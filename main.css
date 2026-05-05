@@ -8,9 +8,24 @@
     height:90px;
     width:100%;
     display:flex;
+    position:relative;
  
 }
 #logo{
     padding:30px;
+    color:rgb(3, 3, 96);
+    font-family: Times New Roman, serif;
+
     
+}
+#btn1{
+    height:40px;
+    width:80px;
+    position:absolute;
+    left:500px;
+    top:30px;
+    text-decoration:none;
+    border:1px solid black;
+    font-size:10px;
+    display:flex;
 }
