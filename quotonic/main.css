@@ -17,6 +17,7 @@
     font-family:'Poppins', serif;
     margin-left:19px;
     font-size:38px;
+    top:-4px;
     
 }
 #btn1{
@@ -82,5 +83,36 @@ h2{
     font-size:40px;
     color:rgb(255, 255, 255);
     left:90px;
-    top:40px;  
+    top:170px; 
+
+}
+p{
+    position:absolute;
+    font-family:'poppins';
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    left:90px;
+    top:240px; 
+
+}
+#btn3{
+    height:40px;
+    width:130px;
+    position:absolute;
+    left:100px;
+    top:350px;
+    font-family:'Poppins', serif;
+    background-color:rgb(39, 49, 109);
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    border:1px solid rgb(208, 195, 195);
+    border-radius:7px;
+    font-size:14px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.fa-solid{
+    margin-left:10px;
+    margin-top:2px;
 }
