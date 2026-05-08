@@ -3,7 +3,22 @@
     margin:0;
 }
 #container{
-    width:500px;
-    height:300px;
-    background-color:pink;
+    width:1000px;
+    height:600px;
+    background-color:rgba(205, 208, 214, 0.606);
+    margin-top:60px;
+    margin-left:350px;
+    border:1px solid grey;
+    border-radius:30px;
+    display:block;
+}
+.fa-solid{
+    font-size:25px;
+    margin-left:50px;
+    margin-top:40px;
+}
+.line{
+    width:3px;
+    height:100px;
+    background-color:#333
 }
