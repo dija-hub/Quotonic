@@ -33,7 +33,7 @@
 }
 #anc{
     position :absolute;
-    top:330px;
+    top:390px;
     left:950px;
     text-decoration:none;
     color:rgb(16, 67, 176);
@@ -85,8 +85,14 @@ p{
 }
 a{
     position :absolute;
-    top:440px;
+    top:490px;
     left:950px;
     text-decoration:none;
     color:rgb(16, 67, 176);
+}
+#pass{
+    width:300px;
+    height:40px;
+    margin-top:20px;
+    margin-left:600px;
 }
