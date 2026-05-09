@@ -12,28 +12,28 @@
     border-radius:30px;
     display:block;
 }
-.fa-solid{
-    font-size:25px;
-    margin-left:50px;
-    margin-top:40px;
+#anchor{
+    font-size:30px;
+    margin-left:-900px;
+    margin-top:-420px;
 }
 .line{
     width:2px;
     height:600px;
     background-color:grey;
     margin-left:450px;
-    margin-top:-330px;
+    margin-top:-370px;
 }
 #info{
     width:300px;
     height:40px;
-    margin-top:10px;
+    margin-top:-60px;
     margin-left:600px;
 
 }
 #anc{
     position :absolute;
-    top:410px;
+    top:330px;
     left:950px;
     text-decoration:none;
     color:rgb(16, 67, 176);
@@ -59,7 +59,7 @@ h3{
     width:250px;
     position:absolute;
     left:490px;
-    top:450px;
+    top:380px;
     font-family:'Poppins', serif;
     background-color:white;
     color:grey;
@@ -84,8 +84,8 @@ p{
     margin-top:100px;
 }
 a{
-        position :absolute;
-    top:530px;
+    position :absolute;
+    top:440px;
     left:950px;
     text-decoration:none;
     color:rgb(16, 67, 176);
