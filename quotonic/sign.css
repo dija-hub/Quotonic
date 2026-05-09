@@ -59,7 +59,7 @@ h3{
     width:250px;
     position:absolute;
     left:490px;
-    top:340px;
+    top:100px;
     font-family:'Poppins', serif;
     background-color:white;
     color:grey;
@@ -95,4 +95,16 @@ a{
     height:40px;
     margin-top:20px;
     margin-left:600px;
+}
+#btn3{
+     height:45px;
+    width:100px;
+    position:absolute;
+    left:1155px;
+    top:400px;
+    font-family:'Poppins', serif;
+    background-color:white;
+    color:grey;
+    font-size:14px;
+    align-items:center;
 }
