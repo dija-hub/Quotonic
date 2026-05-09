@@ -71,8 +71,6 @@ body {
    flex-direction:column;
    height:100px;
    position:relative;
-   
-   
 }
 
 #hero{
@@ -124,3 +122,19 @@ p{
     margin-top:2px;
 }
 
+#container2{
+    height:1000px;
+    background-color:rgba(196, 190, 190, 0.322);
+    margin-top:659px;
+    background-color: rgba(196, 190, 190, 0.322);
+    min-height: 100vh;
+    padding: 60px 20px;
+    position: relative;
+    padding:60px;
+}
+#tracker-box{
+    height:800px;
+    width:600px;
+    background-color:rgb(255, 255, 255);
+    box-shadow:5px 5px 20px rgba(128, 128, 128, 0.328);
+}
