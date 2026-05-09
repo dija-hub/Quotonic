@@ -5,7 +5,7 @@
 #container{
     width:1000px;
     height:600px;
-    background-color:rgba(205, 208, 214, 0.606);
+    background-color:rgba(230, 232, 235, 0.381);
     margin-top:60px;
     margin-left:350px;
     border:1px solid grey;
@@ -59,7 +59,7 @@ h3{
     width:250px;
     position:absolute;
     left:490px;
-    top:380px;
+    top:340px;
     font-family:'Poppins', serif;
     background-color:white;
     color:grey;
