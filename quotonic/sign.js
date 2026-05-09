@@ -32,6 +32,7 @@ enter.addEventListener("click",function(){
   .then(()=>{
        msg.innerText="Sign In Successful"
        msg.style.color = "green";
+       
   })
   .catch(()=>{
     msg.innerText="Wrong Password or Email"
