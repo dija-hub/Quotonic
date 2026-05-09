@@ -11,6 +11,7 @@
     border:1px solid grey;
     border-radius:30px;
     display:block;
+    
 }
 #anchor{
     font-size:30px;
@@ -22,18 +23,18 @@
     height:600px;
     background-color:grey;
     margin-left:450px;
-    margin-top:-370px;
+    margin-top:-396px;
 }
 #info{
     width:300px;
     height:40px;
-    margin-top:-60px;
+    margin-top:-100px;
     margin-left:600px;
-
+    display:block;
 }
 #anc{
     position :absolute;
-    top:390px;
+    top:310px;
     left:950px;
     text-decoration:none;
     color:rgb(16, 67, 176);
@@ -59,7 +60,7 @@ h3{
     width:250px;
     position:absolute;
     left:490px;
-    top:100px;
+    top:340px;
     font-family:'Poppins', serif;
     background-color:white;
     color:grey;
@@ -81,11 +82,15 @@ img{
 }
 p{
     margin-left:599px;
-    margin-top:100px;
+    margin-top:150px;
+}
+#msg{
+    margin-top:1px;
+    display:block;
 }
 a{
     position :absolute;
-    top:490px;
+    top:460px;
     left:950px;
     text-decoration:none;
     color:rgb(16, 67, 176);
@@ -101,10 +106,11 @@ a{
     width:100px;
     position:absolute;
     left:1155px;
-    top:400px;
+    top:300px;
     font-family:'Poppins', serif;
-    background-color:white;
-    color:grey;
+    background-color:rgba(43, 94, 161, 0.958);
+    border-radius:20px;
+    color:rgb(255, 255, 255);
     font-size:14px;
     align-items:center;
 }
