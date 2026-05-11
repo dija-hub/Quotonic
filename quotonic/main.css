@@ -131,13 +131,21 @@ p{
     min-height: 100vh;
     padding: 60px 20px;
     position: relative;
-    padding:60px;
+    padding:90px;
+
 }
 #heading{
     color:rgba(76, 74, 74, 0.518);
     margin-top:-190px;
     margin-left:690px;
 }
+#feature{
+    background-color:red;
+    height:900px;
+    width:600px;
+    padding:30px;
+}
+
 /* #tracker-box{
     height:800px;
     width:600px;
