@@ -1,24 +1,6 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+import { supabase } from './supabase.js'
 
-import {
-  getAuth,
-  signInWithEmailAndPassword
-} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
-
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBFJmTWLJSmkQQJZPgN0r5xvO_v9wmpgNQ",
-  authDomain: "habbit-tracker-24d3c.firebaseapp.com",
-  projectId: "habbit-tracker-24d3c",
-  storageBucket: "habbit-tracker-24d3c.firebasestorage.app",
-  messagingSenderId: "1069162891610",
-  appId: "1:1069162891610:web:5cf736697e3a0fde170b63"
-};
-
-
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-
+console.log("Supabase object:", supabase)
 
 let email = document.getElementById("info");
 let pass = document.getElementById("pass");
