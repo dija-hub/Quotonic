@@ -8,16 +8,19 @@ let msg = document.getElementById("msg");
 let enter = document.getElementById("btn3");
 
 
-enter.addEventListener("click",function(){
+enter.addEventListener("click", async function () {
 
-  signInWithEmailAndPassword(auth,email.value,pass.value)
-  .then(()=>{
-       msg.innerText="Sign In Successful"
-       msg.style.color = "green";
-       
-  })
-  .catch(()=>{
-    msg.innerText="Wrong Password or Email"
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email: email.value,
+    password: pass.value
+  });
+
+  if (error) {
+    msg.innerText = "Wrong Email or Password";
     msg.style.color = "red";
-  })
-})
+  } else {
+    msg.innerText = "Sign In Successful";
+    msg.style.color = "green";
+  }
+
+});
